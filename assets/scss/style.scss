@@ -10,6 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: your-theme-text-domain
 */
 
+// run: node-sass assets/scss/style.scss style.css
+
 /* Reset default browser styles */
 html,
 body,
@@ -88,7 +90,6 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: red;
 }
 
 /* Basic styles for links */
