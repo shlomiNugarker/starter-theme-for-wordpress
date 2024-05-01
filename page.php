@@ -15,6 +15,8 @@ get_header(); // Include header.php
 <main id="primary" class="site-main">
     <div id="content" role="main">
 
+        <button id="myButton">Click me</button>
+
         <?php
         /* Start the Loop */
         while (have_posts()):
